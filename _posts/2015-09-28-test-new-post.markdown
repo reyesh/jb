@@ -1,22 +1,52 @@
 ---
 layout: post
-title:  "A Post done on github"
-date:   2015-09-28 19:58:34
-categories: jekyll update
+title:  "git notes"
+date:   2015-10-18 17:56:47
+categories: git notes udacity school
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+`git log --graph --online master coins`
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+`git checkout -b new_branch_name`
+(on detached HEAD, to create a new branch for reachablity)
 
-Jekyll also offers powerful support for code snippets:
+`git branch new_branch_name`
+`git checkout new_branch_name`
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+`git branch` (list branches)
+`git merge master coins` (merges coins into master)
+
+`git show commit1` (compares the commit to its parent, useful when you merge)
+
+`git branch -d coins` (deletes the label)
+
+`git checkout -b new_branch_name`
+same as these two commands:
+`git branch new_branch name; git checkout new_branch_name`
+(used to start a new branch name from a previous commit, otherwise you’ll be on detach head state
+
+`git remote add origin <https://github.com/username/rep.git>` (standard to name origin)
+`git remote -v` (shows where URL where i would push and pull data from)
+
+send changes to the remote
+`git push <remote> <local_branch>`
+`git push origin master`
+
+sync your updated github repo with your local repo
+`git pull <remote> <local_branch>`
+`git pull origin master`
+
+`git remote` (list remotes)
+`git remote add origin git@github.com:casdf/file.git`
+`git remote -v` (verbose)
+`git push origin master` (to push all changes to current branch to github )
+`git fetch origin` (updates origin/master on local with the latest master on github)
+`git pull origin master`
+the same as
+`git fetch origin`
+`git merge master origin/master`
+
+`git push origin different-branch-not-master` publish a different branch on github
+
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
