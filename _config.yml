@@ -3,7 +3,7 @@ title: Web Dev Blurbs
 email: reyesh@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi! Here's I will jot down quick notes mostly related to web dev. -Reyes
-baseurl: "/jblog" # the subpath of your site, e.g. /blog/
+baseurl: "/jb" # the subpath of your site, e.g. /blog/
 url: "http://reye.sh" # the base hostname & protocol for your site
 twitter_username: reyesh
 github_username:  reyesh
