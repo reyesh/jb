@@ -2,7 +2,9 @@
 title: Web Dev Blurbs
 email: reyesh@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi! Here's I will jot down quick notes mostly related to web dev. -Reyes
+  Hi! Here I will jot down quick notes mostly related to web dev.
+  It's mainly stuff I find interesting and want to keep a record 
+  of it so i can refer to it later. -Reyes
 baseurl: "/jb" # the subpath of your site, e.g. /blog/
 url: "http://reye.sh" # the base hostname & protocol for your site
 twitter_username: reyesh
