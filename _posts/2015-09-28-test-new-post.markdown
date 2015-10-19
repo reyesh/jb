@@ -5,20 +5,39 @@ date:   2015-10-18 17:56:47
 categories: git notes udacity school
 comments: true
 ---
-`git log --graph --online master coins`
+```
+git log --graph --online master coins
+```
 
-`git checkout -b new_branch_name`
-(on detached HEAD, to create a new branch for reachablity)
+on detached HEAD, to create a new branch for reachablity
+```
+git checkout -b new_branch_name
+```
 
-`git branch new_branch_name`
-`git checkout new_branch_name`
+```
+git branch new_branch_name
+```
+```
+git checkout new_branch_name
+```
 
-`git branch` (list branches)
-`git merge master coins` (merges coins into master)
+list branches
+```
+git branch
+```
 
-`git show commit1` (compares the commit to its parent, useful when you merge)
+merges coins into master
+```
+git merge master coins
+``` 
 
-`git branch -d coins` (deletes the label)
+compares the commit to its parent, useful when you merge
+```
+git show commit1
+``` 
+
+deletes the label
+```git branch -d coins``` 
 
 `git checkout -b new_branch_name`
 same as these two commands:
