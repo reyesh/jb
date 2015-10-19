@@ -3,6 +3,7 @@ layout: post
 title:  "git notes"
 date:   2015-10-18 17:56:47
 categories: git notes udacity school
+comments: true
 ---
 `git log --graph --online master coins`
 
