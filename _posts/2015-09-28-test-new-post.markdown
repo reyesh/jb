@@ -40,29 +40,46 @@ deletes the label
 ```git branch -d coins``` 
 
 `git checkout -b new_branch_name`
+
 same as these two commands:
+
 `git branch new_branch name; git checkout new_branch_name`
+
 (used to start a new branch name from a previous commit, otherwise you’ll be on detach head state
 
+
 `git remote add origin <https://github.com/username/rep.git>` (standard to name origin)
+
 `git remote -v` (shows where URL where i would push and pull data from)
 
 send changes to the remote
+
 `git push <remote> <local_branch>`
+
 `git push origin master`
 
 sync your updated github repo with your local repo
+
 `git pull <remote> <local_branch>`
+
 `git pull origin master`
 
 `git remote` (list remotes)
+
 `git remote add origin git@github.com:casdf/file.git`
+
 `git remote -v` (verbose)
+
 `git push origin master` (to push all changes to current branch to github )
+
 `git fetch origin` (updates origin/master on local with the latest master on github)
+
 `git pull origin master`
+
 the same as
+
 `git fetch origin`
+
 `git merge master origin/master`
 
 `git push origin different-branch-not-master` publish a different branch on github
