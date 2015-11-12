@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Closures and Event Listeners"
-date:   2015-11-11 24:30:00
 categories: javascript
 ---
 
