@@ -2,9 +2,9 @@
 layout: post
 title:  "Retesting Jekyll"
 ---
-#Retesting Jekyll
+# Retesting Jekyll
 
-##The Jekyll
+## The Jekyll
 The type is contained within the title and can be one of these types:
 
 * **feat:** a new feature
