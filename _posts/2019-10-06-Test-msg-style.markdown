@@ -7,6 +7,8 @@ title:  "Retesting Jekyll"
 ## The Jekyll
 The type is contained within the title and can be one of these types:
 
+[Name of Link]({% post_url 2015-11-11-closures-and-event-listeners %})
+
 * **feat:** a new feature
 * **fix:** a bug fix
 * **docs:** changes to documentation
