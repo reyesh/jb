@@ -6,7 +6,11 @@ categories: jekyll update
 ---
 
 `yiw` – yank the current word (excluding surrounding whitespace)
+
 `yy` or `Y` – yank the current line, including the newline character at the end of the line
+
 `y$` – yank to the end of the current line (but don't yank the newline character); note that many people like to remap Y to y$ in line with C and D
+
 `3yy` - Yank (copy) three lines, starting from the line where the cursor is positioned.
+
 `u:` undo last change (can be repeated to undo preceding commands)
