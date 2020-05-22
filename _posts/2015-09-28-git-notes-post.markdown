@@ -5,6 +5,26 @@ date:   2015-10-18 17:56:47
 categories: git notes udacity school
 comments: true
 ---
+Since you did not `git add <file>` to staging, it should be under unstaged files (or untracked if file was created). You can confirm that with:
+```
+git status
+```
+
+At this point there are 3 options to undo the local changes you have:
+
+Discard all local changes, but save them for possible re-use later:
+```
+git stash
+```
+Discarding local changes (permanently) to a file:
+```
+git checkout -- <file>
+```
+Discard all local changes to all files permanently:
+```
+git reset --hard
+```
+
 ```
 git log --graph --online master coins
 ```
