@@ -14,3 +14,11 @@ categories: jekyll update
 `3yy` - Yank (copy) three lines, starting from the line where the cursor is positioned.
 
 `u:` undo last change (can be repeated to undo preceding commands)
+
+#### How to insert text at beginning of a multi-line selection in vi/Vim
+
+- Press `Esc` to enter 'command mode'
+- Use `Ctrl`+`V` to enter visual block mode
+- Move `Up`/`Down` to select the columns of text in the lines you want to comment.
+- Then hit `Shift`+`i` and type the text you want to insert.
+- Then hit `Esc`, wait 1 second and the inserted text will appear on every line.
